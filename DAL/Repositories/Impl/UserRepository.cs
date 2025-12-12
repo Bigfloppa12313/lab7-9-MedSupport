@@ -11,7 +11,7 @@ namespace Catalog.DAL.Repositories.Impl
     public class UserRepository
         : BaseRepository<Entities.User>, IUserRepository
     {
-        internal UserRepository(UserContext context)
+        internal UserRepository(DALContext context)
             : base(context)
         {
         }

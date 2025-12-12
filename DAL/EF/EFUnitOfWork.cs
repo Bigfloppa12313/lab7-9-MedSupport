@@ -14,11 +14,11 @@ namespace Catalog.DAL.EF
 {
     public class EFUnitOfWork : IUnitOfWork
     {
-        private UserContext db;
+        private DALContext db;
         private UserRepository userRepository;
         public EFUnitOfWork(DbContextOptions options)
         {
-            db = new UserContext((DbContextOptions<UserContext>)options);
+            db = new DALContext((DbContextOptions<DALContext>)options);
         }
         public IUserRepository Users
         {
