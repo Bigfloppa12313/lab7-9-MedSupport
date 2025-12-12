@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Catalog.DAL.Repositories.Interfaces
 {
-    internal class Interface
+    public interface IUserRepository
+        : IRepository<User>
     {
     }
 }
