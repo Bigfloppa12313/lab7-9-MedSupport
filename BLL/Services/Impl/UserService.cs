@@ -35,7 +35,6 @@ namespace Catalog.BLL.Services.Impl
 
         public UserDTO Authenticate(string login, string password)
         {
-            // Many IUserRepository implementations provide Find; if not, GetAll used
             var candidates = _uow.Users.GetAll();
             var user = candidates.FirstOrDefault(u => u.loginUser(login, password));
             if (user == null) return null;

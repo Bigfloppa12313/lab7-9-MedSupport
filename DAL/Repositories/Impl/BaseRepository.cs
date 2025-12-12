@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Catalog.DAL.Repositories.Impl
 {
@@ -38,8 +36,8 @@ namespace Catalog.DAL.Repositories.Impl
             return
             _set.Where(predicate)
             .Skip(pageSize * pageNumber)
-           .Take(pageNumber)
-           .ToList();
+            .Take(pageSize)
+            .ToList();
         }
         public T Get(int id)
         {
