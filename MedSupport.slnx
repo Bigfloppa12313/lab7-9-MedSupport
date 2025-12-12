@@ -1,5 +1,8 @@
 <Solution>
   <Folder Name="/Catalog/">
+    <Project Path="BLL.Tests/BLL.Tests.csproj" Id="1a61d5dd-eef3-4c1b-b419-6241373e5a47" />
+    <Project Path="BLL/BLL.csproj" Id="cbdcc500-7def-4353-9e66-34bf373a4bc7" />
+    <Project Path="CCL/CCL.csproj" Id="5efcd2eb-ab85-4be9-b882-89681a01e6f7" />
     <Project Path="DAL.Tests/DAL.Tests.csproj" />
     <Project Path="DAL/DAL.csproj" Id="1ff35a20-7df7-4c9c-9ddd-4c975d4fb122" />
   </Folder>
