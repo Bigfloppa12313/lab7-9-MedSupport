@@ -1,14 +1,8 @@
-﻿using Catalog.DAL.Entities;
-using Catalog.DAL.Repositories.Impl;
+﻿using Catalog.DAL.Repositories.Impl;
 using Catalog.DAL.Repositories.Interfaces;
 using Catalog.DAL.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Catalog.DAL.EF
 {
