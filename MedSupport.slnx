@@ -1,1 +1,6 @@
-<Solution />
+<Solution>
+  <Folder Name="/Catalog/">
+    <Project Path="DAL.Tests/DAL.Tests.csproj" />
+    <Project Path="DAL/DAL.csproj" Id="1ff35a20-7df7-4c9c-9ddd-4c975d4fb122" />
+  </Folder>
+</Solution>
